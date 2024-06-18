@@ -1,0 +1,50 @@
+
+
+@media (max-width:375px) {
+    :root{
+        --white-color: hsl(0,0%, 100%);
+        --light-gray: hsl(212, 45%, 89%);
+        --grayish-blue: hsl(220, 15%, 55%);
+        --dark-blue: hsl(218, 44%, 22%);
+    }
+    body{
+        background-color: var(--light-gray) ;
+        
+    }
+
+    .border{
+        background-color: var(--white-color);
+        padding:10px;
+        border-radius: 5%;
+    }
+
+    .container{
+        
+        
+        height: auto;
+        margin: auto;
+        width: 250px;
+        background-color: var(--white-color);
+       
+    }
+   
+
+    .box img{
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 5%;
+    }
+
+    .text-box{
+        text-align: center;
+        
+    }
+
+    .text-box p{
+        font-size: small;
+        color: var(--grayish-blue);
+    }
+
+   
+
+}
